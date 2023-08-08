@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <style>
+      input,
+      select {
+        width: 40px;
+        text-align: center;
+        height: 30px;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <h2>Autor: Leonardo Souza</h2>
+    <hr />
+
+    <input type="number" placeholder="0" id="n1" />
+    <!-- <input type="text" value="+" disabled /> -->
+    <select name="" id="operador">
+      <option value="add">+</option>
+      <option value="sub">-</option>
+      <option value="mul">*</option>
+      <option value="div">/</option>
+      <option value="pot">**</option>
+    </select>
+    <input type="number" placeholder="0" id="n2" />
+    <input type="button" value="=" onclick="calcular();" />
+    <input type="number" placeholder="0" id="result" disabled />
+
+    <hr />
+
+    <script src="calculadora.js"></script>
+  </body>
+</html>

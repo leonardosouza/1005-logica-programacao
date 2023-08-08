@@ -8,3 +8,4 @@ nome = nome.toUpperCase();
 
 // Saída (Dados)
 document.write(nome);
+// alert(nome);
