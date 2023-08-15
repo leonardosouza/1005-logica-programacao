@@ -102,4 +102,5 @@ const concessionaria = [
     modelo: "Fox",
   },
 ];
+
 console.table(concessionaria);

@@ -28,7 +28,6 @@ const calcularImc = () => {
   }
 
   // Saída
-
   if (!isNaN(imc)) {
     document.querySelector(
       "#result"
