@@ -101,6 +101,24 @@ const concessionaria = [
     ano: 2012,
     modelo: "Fox",
   },
+  {
+    marca: "Chevrollet",
+    cor: "vermelho",
+    ano: 2020,
+    modelo: "Kadet",
+  },
+  {
+    marca: "Fiat",
+    cor: "preto",
+    ano: 2021,
+    modelo: "Punto",
+  },
+  {
+    marca: "VW",
+    cor: "preto",
+    ano: 2022,
+    modelo: "Pasat",
+  },
 ];
 
 console.table(concessionaria);

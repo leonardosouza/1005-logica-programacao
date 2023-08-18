@@ -89,3 +89,51 @@ document.write("<h3>Números de 1 à 10 com For Loop</h3>");
 for (let num = 1, limit = 10; num <= limit; num++) {
   document.write(num, " ");
 }
+
+document.write("<hr>");
+document.write("<h3>Imprimindo Astericos (For Loop)</h3>");
+
+// for(preparacao; condicao_logica; incremento_decremento) {}
+for (let i = 0; i < 5; i++) {
+  document.write("*");
+}
+
+document.write("<hr>");
+document.write("<h3>Desafio - 50 Astericos (For Loop)</h3>");
+
+// DESAFIO
+for (let lin = 1; lin <= 5; lin++) {
+  for (let col = 1; col <= 10; col++) {
+    document.write("*");
+  }
+  document.write("<br>");
+}
+
+document.write("<hr>");
+for (let i = 1; i <= 50; i++) {
+  document.write(i % 10 == 0 ? "* <br>" : "*");
+}
+
+document.write("<hr>");
+document.write("<h3>Desafio 2 - Progressão (For Loop)</h3>");
+
+// DESAFIO 2
+
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+// *******
+// ********
+// *********
+// **********
+
+for (let lin = 1; lin <= 10; lin++) {
+  for (let col = 1; col <= lin; col++) {
+    document.write("*");
+  }
+
+  document.write("<br>");
+}
