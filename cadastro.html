@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Ecomm</title>
+  </head>
+  <body>
+    <h1>Cadastro Ecomm</h1>
+
+    <hr />
+    <label for="produto">Produto:</label>
+    <input type="text" id="produto" autofocus />
+    <br /><br />
+
+    <label for="quant">Quantidade:</label>
+    <input type="number" id="quant" placeholder="0" />
+    <br /><br />
+
+    <label for="preco">Preço Unit:</label>
+    <input type="number" id="preco" placeholder="0.00" />
+    <br /><br />
+
+    <button onclick="cadastrar()">Cadastrar</button>
+
+    <hr />
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Quant</th>
+          <th>Preço Unit</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="4">Não existem items cadastrados</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="cadastro.js"></script>
+  </body>
+</html>
